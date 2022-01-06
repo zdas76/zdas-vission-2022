@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: GhostWhite;
+    font-size: 1.25em;
+}
+
+section{
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+}
+
+.divposition{
+    display: flex;
+}
+#vission-border{
+    border-left: 5px solid green;
+}
+#vission-border span{
+   color: LimeGreen;
+}
+.title{
+    font-size: 60px;
+    padding-left: 20px;
+}
+
+.sectionA{
+    width: 50%;
+    text-align: justify;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.sectionA img{
+    width: 60%;
+    margin-left: 40%;
+    
+}
+.button{
+    padding: 0.8em 2.5em ;
+    font-size: larger;
+    background-color: MediumSlateBlue;
+    border-style: none;
+    border-radius: 5px;
+    color: LightYellow;
+}
+
+.sectionB{
+    text-align: center;
+}
+
+.my-mission{
+    display: flex;
+    justify-content: space-around;
+}
+
+.part-div{
+    width: 400px;
+    height: 500px;
+    background-color: PaleGoldenRod;
+    border-radius: 1.5em;
+    padding: 1.5em;
+    text-align: justify;
+}
+
+.my-mission img{
+    width: 50%;
+    position: inherit;
+}
+
+.sectionC{
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    
+}
+
+.sectionC div{
+   padding-left: 22px;
+}
+
+.sectionC img{
+    width: 100%;
+}
+
+.sectionC div:last-child{
+    padding-left: 100px;
+}
+
+.sectionC div h1{
+    font-size: 50px;
+    line-height: 1.4;
+}
+
+.sectionC button{
+    font-size: larger;
+    background-color: MediumSlateBlue;
+    border-style: none;
+    border-radius: 5px;
+    color: LightYellow;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    padding:20px 0;
+}
+
+.sectionE{
+    text-align: center;
+}
+.sectionE .row{
+    display: flex;
+    background-color: #FFF0F5;
+    width: 70%;
+    margin: 30px auto;
+    align-items: center;
+    box-shadow: 0 0 20px #4c00822c;
+}
+.col-img{
+    flex: 1;
+    height: 250px;
+}
+.col-img img{
+    width: 90%;
+    margin-top: 20px;
+}
+
+.col-content{
+    flex: 4;
+    text-align: left;
+    padding-left: 50px;
+}
